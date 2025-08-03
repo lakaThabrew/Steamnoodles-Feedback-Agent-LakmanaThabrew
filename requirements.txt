@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-groq
+openai
+python-dotenv
+pandas
+matplotlib
+seaborn
+plotly
