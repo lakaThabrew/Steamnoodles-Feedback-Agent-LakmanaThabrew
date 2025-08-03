@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_groq import ChatGroq
+import json
 
+# ✅ Load API Key
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 if not groq_key:
@@ -12,20 +14,18 @@ if not groq_key:
 
 llm = ChatGroq(model="llama3-70b-8192", temperature=0.7)
 
-#Prompt Template
 prompt = PromptTemplate(
     input_variables=["feedback"],
     template="""
-                    You are a polite customer support agent for SteamNoodles.
-                    Analyze the following feedback:
-                    1️⃣ Identify the sentiment (positive, negative, or neutral).
-                    2️⃣ Write a short, polite, and context-aware reply.
+                You are a polite customer support agent for SteamNoodles.
+                Analyze the following customer feedback and determine its sentiment (positive, negative, or neutral).
+                Then, write a short, polite, and context-aware reply.
 
-                    Return the result in JSON format like this:
-                    {"sentiment": "positive/negative/neutral", "reply": "your reply"}
+                Return ONLY in JSON format like this:
+                {"sentiment": "positive/negative/neutral", "reply": "your reply"}
 
-                    Customer feedback: "{feedback}"
-                    """
+                Customer feedback: "{feedback}"
+                """
 )
 
 chain = LLMChain(llm=llm, prompt=prompt)
@@ -52,19 +52,21 @@ def run_feedback_agent():
             print("👋 Exiting Feedback Agent.\n")
             break
 
-        response = chain.invoke({"feedback": feedback})["text"]
+        # ✅ Pass ONLY "feedback" to the chain
+        result = chain.invoke({"feedback": feedback})
+        raw_text = result["text"]
 
         try:
-            import json
-            result = json.loads(response)
-            sentiment = result.get("sentiment", "neutral")
-            reply = result.get("reply", "Thank you for your feedback!")
+            parsed = json.loads(raw_text)
+            sentiment = parsed.get("sentiment", "neutral")
+            reply = parsed.get("reply", "Thank you for your feedback!")
         except:
             sentiment = "neutral"
-            reply = response
+            reply = raw_text.strip()
 
-        print(f"\n📣 Agent Reply ({sentiment.upper()}):\n", reply)
-        print("-" * 120)
+        print(f"\n📣 Sentiment → {sentiment.upper()}")
+        print(f"💬 Reply → {reply}")
+        print("-" * 100)
 
         save_feedback_to_csv(feedback, reply, sentiment)
-        print("✅ Feedback, reply & sentiment saved to reviews.csv")
+        print("✅ Saved to reviews.csv")
