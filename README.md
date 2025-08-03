@@ -104,3 +104,11 @@ Year: 23 Batch, Second Year
 
 ## 📜 License
 This project is licensed under the MIT License.
+
+## 📞 Contact for Support
+🧑‍💻 Lakmana Thabrew
+
+📧 Email : 
+```
+lakmanat.23@cse.mrt.ac.lk
+```
