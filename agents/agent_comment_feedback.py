@@ -123,6 +123,11 @@ def run_feedback_agent():
         reply_raw = reply_agent_chain.invoke(f"Generate a polite reply to this feedback:\n'{feedback}'")
         reply = reply_raw['output'].strip()
 
+        with open("Outputs/response.txt", "a") as f:
+            f.write(f"Feedback: {feedback}\n")
+            f.write(f"Reply: {reply}\n")
+            f.write(f"Sentiment: {sentiment}\n\n")
+
         save_feedback_to_csv(feedback, reply, sentiment)
 
         print(f"\nSentiment → {sentiment.capitalize()}")

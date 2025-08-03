@@ -1,0 +1,16 @@
+Feedback: Best noodles I've ever had! Highly recommend to everyone.
+Reply: "Thank you so much for sharing your wonderful experience with our noodles! We're absolutely thrilled to hear that they're the best you've ever had. Your kind words mean the world to us, and we're grateful for your enthusiastic recommendation. We're proud to have customers like you who appreciate the love and care we put into crafting our dishes. We can't wait to serve you again and continue to exceed your expectations! "
+Sentiment: positive
+
+Feedback: The portion size was too much for the price I paid.
+Reply: "Dear valued customer, thank you for taking the time to share your feedback with us. We apologize if you felt that the portion size of our noodles didn't quite match the price point. We understand that value is important to our customers, and we'll definitely take your comment into consideration as we continually review and refine our menu offerings. If you'd like to discuss this further or have any suggestions on how we can better meet your expectations, please don't hesitate to reach out. We appreciate your business and look forward to serving you better in the future."
+Sentiment: negative
+
+Feedback: Worst noodles I've ever had! Not recommend to everyone.
+Reply: "I'm so sorry to hear that our noodles didn't meet your expectations. We take all feedback seriously and would like to make things right. Could you please tell us more about your experience, such as the type of noodles you ordered and what specifically didn't you like about them? This will help us to improve our products and services. We appreciate your feedback and hope to have the opportunity to serve you better in the future."
+Sentiment: negative
+
+Feedback: 
+Reply: Dear valued customer, thank you for reaching out to us! I apologize, but it seems that there was no feedback provided in your message. Could you please take a moment to share what's on your mind? We're all ears and would love to hear about your experience with SteamNoodles. Your feedback is invaluable in helping us improve our services and products. Please feel free to share any thoughts, concerns, or suggestions you may have, and I'll be more than happy to assist you.
+Sentiment: neutral
+
