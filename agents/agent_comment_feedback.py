@@ -1,10 +1,9 @@
 import os
 import pandas as pd
+import json
 from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
 from langchain_groq import ChatGroq
-import json
 
 # ✅ Load API Key
 load_dotenv()
@@ -17,21 +16,26 @@ llm = ChatGroq(model="llama3-70b-8192", temperature=0.7)
 prompt = PromptTemplate(
     input_variables=["feedback"],
     template=
-    """
+            """
                 You are a polite customer support agent for SteamNoodles.
-                Analyze the following customer feedback and determine its sentiment (positive, negative, or neutral).
-                Then, write a short, polite, and context-aware reply.
 
-                Return ONLY in JSON format like this:
-                {"sentiment": "positive/negative/neutral", "reply": "your reply"}
+                Analyze the following customer feedback and determine its sentiment:
+                - Sentiment must be strictly one of: "positive", "negative", or "neutral".
+                - Then, write a short, polite, and context-aware reply.
+
+                ⚠️ IMPORTANT: Reply ONLY in valid JSON. Do NOT add extra text.
+
+                Example Output:
+                {"sentiment": "positive", "reply": "Thank you so much for your kind words! We're thrilled you enjoyed our noodles."}
 
                 Customer feedback: "{feedback}"
-                """
+            """
 )
 
-chain = LLMChain(llm=llm, prompt=prompt)
+chain = prompt | llm  
 
 DATA_FILE = "data/reviews.csv"
+
 
 def save_feedback_to_csv(feedback, reply, sentiment):
     df_new = pd.DataFrame([{
@@ -41,10 +45,13 @@ def save_feedback_to_csv(feedback, reply, sentiment):
         "timestamp": pd.Timestamp.now()
     }])
 
+    os.makedirs("data", exist_ok=True)
+
     if os.path.exists(DATA_FILE):
         df_new.to_csv(DATA_FILE, mode="a", index=False, header=False)
     else:
         df_new.to_csv(DATA_FILE, index=False)
+
 
 def run_feedback_agent():
     while True:
@@ -53,8 +60,9 @@ def run_feedback_agent():
             print("👋 Exiting Feedback Agent.\n")
             break
 
-        result = chain.invoke({"feedback": feedback})
-        raw_text = result["text"]
+        result = chain.invoke({"feedback": feedback}) 
+
+        raw_text = result.content if hasattr(result, "content") else str(result)
 
         try:
             parsed = json.loads(raw_text)
@@ -70,3 +78,5 @@ def run_feedback_agent():
 
         save_feedback_to_csv(feedback, reply, sentiment)
         print("✅ Saved to reviews.csv")
+
+
