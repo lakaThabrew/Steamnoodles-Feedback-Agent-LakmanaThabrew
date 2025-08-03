@@ -16,7 +16,8 @@ llm = ChatGroq(model="llama3-70b-8192", temperature=0.7)
 
 prompt = PromptTemplate(
     input_variables=["feedback"],
-    template="""
+    template=
+    """
                 You are a polite customer support agent for SteamNoodles.
                 Analyze the following customer feedback and determine its sentiment (positive, negative, or neutral).
                 Then, write a short, polite, and context-aware reply.
@@ -52,7 +53,6 @@ def run_feedback_agent():
             print("👋 Exiting Feedback Agent.\n")
             break
 
-        # ✅ Pass ONLY "feedback" to the chain
         result = chain.invoke({"feedback": feedback})
         raw_text = result["text"]
 
