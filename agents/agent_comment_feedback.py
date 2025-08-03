@@ -12,20 +12,20 @@ import pandas as pd
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 if not groq_key:
-    raise EnvironmentError("❌ GROQ_API_KEY is missing. Please check your .env file.")
-
+    raise EnvironmentError("GROQ_API_KEY is missing. Please check your .env file.")
+else:
+    print("GROQ key loaded.")
+    
 os.environ["GROQ_API_KEY"] = groq_key
-print("✅ GROQ key loaded.")
 
 llm = ChatGroq(model="llama3-70b-8192", temperature=0.7)
 
 DATA_FILE = "data/reviews.csv"
 
-# Agent 1: Sentiment Analyzer (returns ONLY sentiment string)
+#Agent 1: Sentiment Analyzer
 def sentiment_agent(feedback: str) -> str:
     prompt = f"""
             You are a helpful assistant.
-
             Given the customer feedback below, determine the sentiment.
             Output ONLY one word: positive, negative, or neutral.
 
@@ -52,14 +52,12 @@ sentiment_agent_chain = initialize_agent(
     verbose=False
 )
 
-# Agent 2: Reply Generator (returns polite reply)
+#Agent 2: Reply Generator
 def reply_agent(feedback: str) -> str:
     prompt = f"""
-                    You are a polite customer support agent for SteamNoodles.
-
-                    Read the customer feedback below and write a short, polite, and context-aware just reply as a paragraph.
-
-                    Customer feedback:
+                You are a polite customer support agent for SteamNoodles.
+                Read the customer feedback below and write a short, polite, and context-aware just reply as a paragraph.
+                Customer feedback:
                     \"\"\"{feedback}\"\"\"
                 """
     
@@ -99,12 +97,12 @@ def save_feedback_to_csv(feedback, reply, sentiment):
         df_new.to_csv(DATA_FILE, index=False)
 
 def run_feedback_agent():
-    print("🚀 SteamNoodles Feedback Sentiment and Reply Agents")
+    print("SteamNoodles Feedback Sentiment and Reply Agents")
     while True:
-        feedback = input("\n💬 Enter customer feedback (type 'exit' to quit): ")
+        feedback = input("\nEnter customer feedback (type 'exit' to quit): ")
 
         if feedback.lower() in ["exit", "quit"]:
-            print("👋 Exiting agents.")
+            print("Back To Main Menu.")
             break
 
         sentiment_raw = sentiment_agent_chain.invoke(f"Analyze sentiment of this feedback:\n'{feedback}'")
@@ -127,9 +125,9 @@ def run_feedback_agent():
 
         save_feedback_to_csv(feedback, reply, sentiment)
 
-        print(f"\n📣 Sentiment → {sentiment.capitalize()}")
-        print(f"💬 Reply → {reply}")
-        print("-" * 80)
+        print(f"\nSentiment → {sentiment.capitalize()}")
+        print(f"Reply → {reply}")
+        print("-" * 170)
 
-if __name__ == "__main__":
-    run_feedback_agent()
+#if __name__ == "__main__":
+#    run_feedback_agent()
