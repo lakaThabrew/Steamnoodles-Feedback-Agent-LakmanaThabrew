@@ -118,7 +118,7 @@ def run_feedback_agent():
             sentiment = "neutral"
 
         else:
-            sentiment = "unknown"
+            sentiment = "neutral"
 
         reply_raw = reply_agent_chain.invoke(f"Generate a polite reply to this feedback:\n'{feedback}'")
         reply = reply_raw['output'].strip()
