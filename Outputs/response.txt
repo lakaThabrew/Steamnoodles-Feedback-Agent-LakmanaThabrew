@@ -80,3 +80,7 @@ Feedback: It’s a decent place for a quick bite, but nothing to rave about.
 Reply: "Thank you so much for taking the time to share your thoughts about SteamNoodles! We appreciate your honesty and are glad to hear that we can provide a convenient option for a quick meal. We understand that our dishes may not have exceeded your expectations, and we're always looking for ways to improve. If you have any specific feedback or suggestions on how we can take our menu to the next level, we'd love to hear them! Your input is invaluable in helping us serve you better in the future."
 Sentiment: neutral
 
+Feedback: The chicken was dry and lacked flavor. Not what I expected for the price.
+Reply: "Dear valued customer, thank you for taking the time to share your feedback about your recent experience with SteamNoodles. I'm so sorry to hear that our chicken dish didn't meet your expectations, particularly in terms of flavor and texture. We understand that our prices are higher than some other options, and we apologize if we didn't deliver the quality you were expecting. I'd like to make things right - could you please contact me directly so we can discuss a suitable solution, such as a refund or a complimentary dish on your next visit? Your satisfaction is our top priority, and I appreciate your help in ensuring we're meeting our high standards."
+Sentiment: negative
+

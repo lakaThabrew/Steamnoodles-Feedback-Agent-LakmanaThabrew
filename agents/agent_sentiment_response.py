@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 if not groq_key:
-    raise EnvironmentError("GROQ_API_KEY is missing in .env")
+    raise EnvironmentError("⚠️ GROQ_API_KEY is missing in .env")
 
 llm = ChatGroq(model="llama3-70b-8192")
 
@@ -54,18 +54,18 @@ def run_sentiment_plot_agent():
         parse_dates=["timestamp"]
     ).dropna(subset=["timestamp"])
 
-    user_input = input("Enter date range (e.g., 'last 7 days', 'June 1 to June 15'): ")
+    user_input = input("📅 Enter date range (e.g., 'last 7 days', 'June 1 to June 15'): ")
 
     start_date, end_date = get_date_range(user_input)
 
     if not start_date or not end_date:
-        print("Could not understand the date range. Try again.")
+        print("\n⚠️ Could not understand the date range. Try again.")
         return
 
     df_filtered = df[(df["timestamp"] >= start_date) & (df["timestamp"] <= end_date)]
 
     if df_filtered.empty:
-        print("No data available in the selected range.")
+        print("\n⚠️ No data available in the selected range.")
         return
 
     df_grouped = (

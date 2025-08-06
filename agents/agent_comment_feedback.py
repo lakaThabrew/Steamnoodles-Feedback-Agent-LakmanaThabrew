@@ -9,14 +9,16 @@ from langchain.chat_models.base import BaseChatModel
 import pandas as pd
 
 # Load .env file and GROQ key
-print("Loading GROQ key from .env file...")
+qroq_key = None
+print("⌛Loading GROQ key from .env file...")
 
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
+
 if not groq_key:
-    raise EnvironmentError("GROQ_API_KEY is missing. Please check your .env file.")
+    raise EnvironmentError("⚠️ GROQ_API_KEY is missing. Please check your .env file.")
 else:
-    print("GROQ key loaded.")
+    print("✅ GROQ key loaded.")
     
 os.environ["GROQ_API_KEY"] = groq_key
 
@@ -99,12 +101,12 @@ def save_feedback_to_csv(feedback, reply, sentiment):
         df_new.to_csv(DATA_FILE, index=False)
 
 def run_feedback_agent():
-    print("SteamNoodles Feedback Sentiment and Reply Agents")
+    print("📝 SteamNoodles Feedback Sentiment and Reply Agents")
     while True:
-        feedback = input("\nEnter customer feedback (type 'exit' to quit): ")
+        feedback = input("\n 📩 Enter customer feedback (type 'exit' to quit): ")
 
         if feedback.lower() in ["exit", "quit"]:
-            print("Back To Main Menu.")
+            print("📋 Back To Main Menu.")
             break
 
         sentiment_raw = sentiment_agent_chain.invoke(f"Analyze sentiment of this feedback:\n'{feedback}'")
@@ -132,8 +134,8 @@ def run_feedback_agent():
 
         save_feedback_to_csv(feedback, reply, sentiment)
 
-        print(f"\nSentiment → {sentiment.capitalize()}")
-        print(f"Reply → {reply}")
+        print(f"\n🔎 Sentiment → {sentiment.capitalize()}")
+        print(f"➤ Reply → {reply}")
         print("-" * 170)
 
 #if __name__ == "__main__":
