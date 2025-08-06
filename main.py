@@ -15,7 +15,7 @@ while True:
     elif choice == "2":
         run_sentiment_plot_agent()
 
-    elif choice == "3":
+    elif choice == "3" or "exit" or "Exit" or "quit" or "Quit":
         print("Goodbye! Have a great day!")
         break
 

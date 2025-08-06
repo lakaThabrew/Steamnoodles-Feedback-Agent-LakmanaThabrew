@@ -9,6 +9,8 @@ from langchain.chat_models.base import BaseChatModel
 import pandas as pd
 
 # Load .env file and GROQ key
+print("Loading GROQ key from .env file...")
+
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 if not groq_key:

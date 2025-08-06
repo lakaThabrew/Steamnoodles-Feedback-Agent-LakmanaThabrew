@@ -38,3 +38,45 @@ Feedback: Amazing experience! The staff was friendly, and the noodles were perfe
 Reply: "Dear valued customer, thank you so much for taking the time to share your wonderful feedback about your recent visit to SteamNoodles! We're absolutely thrilled to hear that our staff provided you with a warm and welcoming experience, and that our noodles met your expectations. We're proud of our team's dedication to providing top-notch service and delicious food, and it's fantastic to know that we've been able to deliver on that promise for you. Thank you again for your kind words, and we look forward to serving you again soon!"
 Sentiment: positive
 
+Feedback: I loved the spicy miso ramen! Just the right amount of heat and flavor.
+Reply: "Thank you so much for sharing your feedback with us! We're thrilled to hear that you enjoyed our spicy miso ramen and found the balance of heat and flavor to be just right. We take great care in crafting our recipes to ensure that every bowl is a delight for our customers, and it's wonderful to know that we've hit the mark for you. If you have any other favorites or suggestions on how we can continue to improve, please don't hesitate to let us know. We're always here to listen and look forward to serving you again soon!"
+Sentiment: positive
+
+Feedback: The packaging was eco-friendly, which I really appreciate. Great initiative!
+Reply: "Thank you so much for taking the time to share your feedback with us! We're thrilled to hear that you appreciated our eco-friendly packaging efforts. At SteamNoodles, we're committed to reducing our environmental footprint, and it's wonderful to know that our initiatives are resonating with our customers. We're always looking for ways to improve, and your kind words are a great motivator for us to continue making a positive impact. Thank you again for your support, and we hope you enjoy your SteamNoodles experience!"
+Sentiment: positive
+
+Feedback: My order was missing the extra toppings I paid for. Not happy.
+Reply: "I apologize for the mistake with your order. Can I assist you in getting the extra toppings you paid for?"
+Sentiment: negative
+
+Feedback: The delivery driver was polite, but the order took nearly an hour to arrive.
+Reply: The final reply to the customer's feedback is: "Thank you so much for taking the time to share your feedback with us! We're glad to hear that our delivery driver was polite and provided a positive experience. However, we apologize for the delay in receiving your order. An hour is longer than our expected delivery time, and we're truly sorry for the inconvenience this may have caused. We'll look into this incident and work to improve our delivery times to ensure our customers receive their orders promptly. If you'd like, we'd be happy to offer a discount on your next order or provide a small credit to your account. Please let us know how we can make it right for you."
+Sentiment: neutral
+
+Feedback: Impressed with the variety of vegetarian options on the menu.
+Reply: "Dear valued customer, thank you so much for taking the time to share your positive feedback about our vegetarian options! We're thrilled to hear that you were impressed with the variety of choices available on our menu. At SteamNoodles, we strive to cater to all dietary preferences and needs, and it's wonderful to know that we've been able to meet your expectations. We'll continue to work hard to ensure that our menu remains diverse and exciting for all our customers. Thank you again for your kind words, and we look forward to serving you again soon!"
+Sentiment: positive
+
+Feedback:     Broth was bland and lacked depth. Expected more based on the reviews.
+Reply: "Dear valued customer,
+
+Thank you so much for sharing your feedback with us! We appreciate your honesty and apologize again for not meeting your expectations. Our team is constantly working to improve and refine our recipes, and your input is invaluable in helping us get better. We understand that our Tonkotsu broth fell short of your expectations, lacking the rich, umami flavor you've come to expect from Japanese cuisine. We'll take your feedback into consideration, revisiting our recipe to ensure a more balanced and satisfying flavor profile. Thank you for your patience and understanding as we strive to elevate our dishes to the high standards our customers deserve. We look forward to serving you better in the future."
+Sentiment: negative
+
+Feedback: Easy checkout process, and I liked the real-time order tracking feature.
+Reply: "Dear valued customer, thank you so much for taking the time to share your positive experience with us! We're thrilled to hear that our checkout process was seamless and that you appreciated our real-time order tracking feature. We're committed to making every aspect of your SteamNoodles experience as smooth and convenient as possible, and it's wonderful to know we're hitting the mark. If you have any other feedback or need assistance in the future, please don't hesitate to reach out. We're always here to help and look forward to serving you again soon!"
+Sentiment: positive
+
+Feedback: Tried the new rice bowl — surprisingly good! Would order again.
+Reply: "Thank you so much for taking the time to share your feedback about our new rice bowl! We're thrilled to hear that you enjoyed it and would order it again. It means a lot to us to know that our new menu item has hit the spot with our customers. We'll make sure to pass along your kind words to our culinary team, and we can't wait to serve you again soon!"
+Sentiment: positive
+
+Feedback: The noodles were stuck together and hard to eat. Maybe overcooked?
+Reply: "Dear valued customer, thank you for taking the time to share your feedback with us. We apologize to hear that your noodles were stuck together and hard to eat, which is not the experience we strive to provide. We take food quality very seriously and will look into this issue immediately. It's possible that the noodles may have been overcooked, and we'll make sure to adjust our cooking process to prevent this from happening in the future. If you'd like, we'd be happy to offer you a complimentary dish on your next visit or provide a refund for your recent purchase. Please let us know how we can make it right for you. Thank you again for your feedback, and we hope to serve you better soon!"
+Sentiment: negative
+
+Feedback: It’s a decent place for a quick bite, but nothing to rave about.
+Reply: "Thank you so much for taking the time to share your thoughts about SteamNoodles! We appreciate your honesty and are glad to hear that we can provide a convenient option for a quick meal. We understand that our dishes may not have exceeded your expectations, and we're always looking for ways to improve. If you have any specific feedback or suggestions on how we can take our menu to the next level, we'd love to hear them! Your input is invaluable in helping us serve you better in the future."
+Sentiment: neutral
+

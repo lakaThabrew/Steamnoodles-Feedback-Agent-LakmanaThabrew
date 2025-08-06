@@ -18,9 +18,38 @@ Comments:
     Easy checkout process, and I liked the real-time order tracking feature.
     Tried the new rice bowl — surprisingly good! Would order again.
     The noodles were stuck together and hard to eat. Maybe overcooked?
-    It’s a decent place for a quick bite, but nothing to rave about."
+    It’s a decent place for a quick bite, but nothing to rave about.
 
-
+    The chicken was dry and lacked flavor. Not what I expected for the price.
+    Super impressed with the spicy peanut noodles! Full of flavor and arrived piping hot.
+    Delivery was 20 minutes late, and the soup had already gone cold.
+    Decent food. It’s not amazing, but it gets the job done when you’re hungry.
+    Loved the eco-friendly packaging — small detail, but it shows they care.
+    The app froze twice during checkout. Annoying, but I eventually got my order through.
+    Noodles had a perfect chew and the sauce was rich and bold. Will order again!
+    Honestly? Pretty average. I wouldn’t rave about it, but I wouldn’t complain either.
+    I paid extra for tofu, but it wasn’t included. Disappointed and no refund so far.
+    Fast delivery, generous portions, and great value. Five stars from me.
+    Too oily for my taste. The flavor was okay, but I couldn’t finish it.
+    Loved the ability to customize my bowl — spice, toppings, everything!
+    It’s a solid midweek lunch option, nothing more, nothing less.
+    My packaging was a mess. Sauce leaked everywhere. Please fix this.
+    Tried the new tofu curry ramen. Absolute fire — highly recommend it!
+    The broth tasted bland and watered down. Definitely not worth the hype.
+    App works fine, but adding filters to sort by dietary preference would be nice.
+    Customer service responded quickly when my order was delayed. Much appreciated.
+    Nothing to complain about, but also nothing stood out. Just okay.
+    Spring rolls were soggy and greasy. Probably won’t order sides again.
+    Noodles were fresh and packed with flavor — exceeded my expectations.
+    Didn’t love the texture. Felt like the noodles were overcooked and clumped together.
+    The sesame miso bowl hit every note. Umami heaven.
+    Toppings were skimpy for the price. I expected more.
+    Nice surprise — my meal came with a free drink voucher. Great customer gesture!
+    Honestly, it’s convenient and reliable. I order at least once a week.
+    Broth lacked depth. Tasted like it came from a packet.
+    Loved the cold noodle salad. So refreshing and different from the usual.
+    Had high hopes, but it was just average. Nothing that makes me want to reorder.
+    Best ramen I’ve had from a delivery service. Flavor, temperature, packaging — all on point.
 
 Dates Examples:
     "last 7 days",
