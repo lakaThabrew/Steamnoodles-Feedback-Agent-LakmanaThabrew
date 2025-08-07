@@ -10,7 +10,7 @@ import pandas as pd
 
 # Load .env file and GROQ key
 qroq_key = None
-print("⌛Loading GROQ key from .env file...")
+print("\n⌛Loading GROQ key from .env file...")
 
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
@@ -18,7 +18,7 @@ groq_key = os.getenv("GROQ_API_KEY")
 if not groq_key:
     raise EnvironmentError("⚠️ GROQ_API_KEY is missing. Please check your .env file.")
 else:
-    print("✅ GROQ key loaded.")
+    print("\n✅ GROQ key loaded.")
     
 os.environ["GROQ_API_KEY"] = groq_key
 
@@ -101,7 +101,7 @@ def save_feedback_to_csv(feedback, reply, sentiment):
         df_new.to_csv(DATA_FILE, index=False)
 
 def run_feedback_agent():
-    print("📝 SteamNoodles Feedback Sentiment and Reply Agents")
+    print("\n📝 SteamNoodles Feedback Sentiment and Reply Agents")
     while True:
         feedback = input("\n 📩 Enter customer feedback (type 'exit' to quit): ")
 
