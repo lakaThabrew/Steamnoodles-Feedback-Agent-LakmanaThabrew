@@ -7,7 +7,7 @@ while True:
     print("2. 📶 Sentiment Visualization Agent")
     print("3. 🚪 Exit")
 
-    choice = input("🔀 Select an option: ")
+    choice = input("\n🔀 Select an option: ")
 
     if choice == "1":
         run_feedback_agent()
@@ -16,8 +16,8 @@ while True:
         run_sentiment_plot_agent()
 
     elif choice == "3" or "exit" or "Exit" or "quit" or "Quit":
-        print("👋 Goodbye! Have a great day!")
+        print("\n👋 Goodbye! Have a great day!")
         break
 
     else:
-        print("⚠️ Invalid choice. Enter Valid Input.........................")
+        print("\n⚠️ Invalid choice. Enter Valid Input.........................")
