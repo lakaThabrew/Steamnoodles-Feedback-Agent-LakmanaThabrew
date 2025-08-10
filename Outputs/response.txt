@@ -108,3 +108,29 @@ Feedback: Noodles had a perfect chew and the sauce was rich and bold. Will order
 Reply: "Thank you so much for sharing your wonderful experience with us! We're thrilled to hear that our noodles met your expectations with their perfect chew and that our sauce impressed you with its rich and bold flavor. We're grateful for customers like you who appreciate the care we put into preparing our dishes. We can't wait to serve you again and look forward to your next order!"
 Sentiment: positive
 
+Feedback: Honestly? Pretty average. I wouldn’t rave about it, but I wouldn’t complain either.
+Reply: Dear valued customer, thank you for taking the time to share your thoughts about your SteamNoodles experience. We appreciate your honest feedback and understand that our noodles may not have exceeded your expectations this time around. We're sorry to hear that we didn't quite hit the mark, but we're grateful that you didn't have any major issues with your meal either. We're always striving to improve, and your input helps us to refine our recipes and service. If you're willing, could you please tell us a bit more about what we could've done differently to make your experience more memorable? Your feedback is invaluable to us, and we hope to have the opportunity to serve you better in the future.
+Sentiment: neutral
+
+Feedback: I paid extra for tofu, but it wasn’t included. Disappointed and no refund so far.
+Reply: "I'm so sorry to hear that your SteamNoodles order was missing the extra tofu you paid for. I understand how disappointing that must be. I'd be happy to help you with a refund or a complimentary replacement order, whichever you prefer. Could you please provide me with your order number so I can look into this further and make things right for you? I appreciate your patience and cooperation, and I'll do my best to resolve this issue as quickly as possible."
+Sentiment: negative
+
+Feedback: Fast delivery, generous portions, and great value. Five stars from me.
+Reply: "Dear valued customer, thank you so much for taking the time to share your wonderful feedback about your recent SteamNoodles experience! We're thrilled to hear that our fast delivery, generous portions, and great value exceeded your expectations. Your five-star review truly made our day, and we're grateful for customers like you who appreciate our efforts to provide the best possible service. We can't wait to serve you again soon!"
+Sentiment: positive
+
+Feedback: Too oily for my taste. The flavor was okay, but I couldn’t finish it.
+Reply: "Dear valued customer, thank you for taking the time to share your feedback about your recent SteamNoodles experience. We apologize that our dish didn't quite meet your expectations, particularly with regards to the oiliness. We understand that flavor preferences can be highly personal, and we'll definitely take your comments into consideration as we continuously strive to improve our recipes. If you'd be willing, could you please let us know which specific dish you ordered so we can look into adjusting the seasoning for future customers? Your input is invaluable to us, and we appreciate your honesty."
+Sentiment: negative
+
+Feedback:  Loved the ability to customize my bowl — spice, toppings, everything!
+Reply: "Thank you so much for taking the time to share your wonderful feedback with us! We're thrilled to hear that you enjoyed the customization options at SteamNoodles and were able to create a bowl that perfectly suited your taste buds. We take pride in offering a wide range of toppings and spice levels to ensure that every guest can craft a meal that's tailored to their unique preferences. We're glad you had a great experience and can't wait to welcome you back to SteamNoodles again soon!"
+Sentiment: positive
+
+Feedback: My packaging was a mess. Sauce leaked everywhere. Please fix this.
+Reply: The final reply to the customer's feedback is: 
+
+"We're thrilled to hear that our response has met your expectations, and we're grateful for your understanding. We're dedicated to providing the highest quality products and service, and we're continuously working to improve our packaging and shipping processes to prevent similar issues in the future."
+Sentiment: negative
+

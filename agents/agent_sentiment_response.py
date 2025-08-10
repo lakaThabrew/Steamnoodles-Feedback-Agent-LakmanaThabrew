@@ -92,7 +92,7 @@ def run_sentiment_plot_agent():
     ax2.set_ylabel("Individual Sentiment Count (Lines)", fontsize=12)
     ax1.set_xticks(range(len(df_grouped)))
     ax1.set_xticklabels([str(date) for date in df_grouped.index], rotation=45)
-    ax1.legend(title="Stacked Bars", loc="upper left")
+    ax1.legend(title="Bars", loc="upper left")
     ax2.legend(title="Trend Lines", loc="upper right")
     ax1.grid(True, axis='y', linestyle='--', alpha=0.5)
 
