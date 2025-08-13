@@ -75,7 +75,7 @@ def run_sentiment_plot_agent():
 
     fig, ax1 = plt.subplots(figsize=(12, 7))
     line_colors = {'positive': '#2E8B57', 'neutral': '#DAA520', 'negative': '#DC143C'}  
-    line_markers = {'positive': 'o', 'neutral': 's', 'negative': '^'}  
+    line_markers = {'positive': 'o', 'neutral': 'o', 'negative': 'o'}  
     
     df_grouped[ordered_sentiments].plot(kind="bar",stacked=False,color=line_colors,edgecolor='black',ax=ax1,alpha=0.8,linewidth=0.5)
 

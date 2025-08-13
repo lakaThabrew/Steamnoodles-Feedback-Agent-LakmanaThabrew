@@ -157,3 +157,39 @@ Feedback: App works fine, but adding filters to sort by dietary preference would
 Reply: "Dear valued customer, thank you so much for taking the time to share your feedback with us! We're thrilled to hear that the app is working smoothly for you. We completely understand the importance of catering to diverse dietary needs, and we appreciate your suggestion to add filters for sorting by dietary preference. We'll definitely consider this feature enhancement in our future updates to make the SteamNoodles experience even more enjoyable and inclusive for all our users. Thank you again for your input, and we look forward to continuing to serve you delicious noodles!"
 Sentiment: positive
 
+Feedback: Customer service responded quickly when my order was delayed. Much appreciated.
+Reply: "Dear valued customer, thank you so much for taking the time to share your positive experience with our customer service team! We're thrilled to hear that we were able to respond quickly and efficiently to resolve the issue with your delayed order. Your satisfaction is our top priority, and we're grateful for your appreciation. We'll continue to strive to provide the best possible service to ensure your SteamNoodles experience is always exceptional. Thank you for choosing us, and we hope to serve you again soon!"
+Sentiment: positive
+
+Feedback: Nothing to complain about, but also nothing stood out. Just okay.
+Reply: "Thank you so much for taking the time to share your feedback with us! We appreciate your honesty and are glad to hear that you didn't have any issues with your experience at SteamNoodles. Sorry to hear that it didn't exceed your expectations, though! We're always looking for ways to improve, so if you have any suggestions on how we can make our dishes or service stand out to you, we'd love to hear them. In the meantime, we hope you'll give us another try in the future and see if we can wow you next time around!"
+Sentiment: neutral
+
+Feedback: Spring rolls were soggy and greasy. Probably won’t order sides again.
+Reply: The final polite reply to the customer's feedback is: "I'm so sorry to hear that our spring rolls didn't meet your expectations. We take pride in serving crispy and delicious sides, and it's clear that we fell short in your case. I'd like to make things right - could you please tell me more about your order, such as the location and date of your purchase? This will help me to look into what might have gone wrong and ensure that we're doing better in the future. Your feedback is invaluable to us, and I appreciate your honesty. We'll do our best to regain your trust in our sides."
+Sentiment: negative
+
+Feedback:  Noodles were fresh and packed with flavor — exceeded my expectations.
+Reply: "Dear valued customer, thank you so much for taking the time to share your wonderful feedback with us! We're absolutely thrilled to hear that our noodles exceeded your expectations and that you enjoyed the freshness and flavor they had to offer. It's always our goal to provide the best possible experience for our customers, and it's feedback like yours that lets us know we're on the right track. We appreciate your support and look forward to serving you again in the future!"
+Sentiment: positive
+
+Feedback: Nice surprise — my meal came with a free drink voucher. Great customer gesture!
+Reply: "Aww, thank you so much for sharing your wonderful experience with us! We're thrilled to hear that the free drink voucher was a lovely surprise for you. At SteamNoodles, we're always looking for ways to show our appreciation for our customers, and it warms our hearts to know that our little gesture made your day a bit brighter. If you have any other feedback or suggestions, please don't hesitate to let us know - we're all ears! Otherwise, we can't wait to serve you again soon!"
+Sentiment: positive
+
+Feedback:     Honestly, it’s convenient and reliable. I order at least once a week.
+Reply: "Thank you so much for taking the time to share your positive experience with SteamNoodles! We're thrilled to hear that our service has become a convenient and reliable part of your weekly routine. Your loyalty means the world to us, and we're grateful for customers like you who make our hard work worthwhile. We'll keep striving to provide you with the best possible experience, and we look forward to serving you many more delicious meals in the weeks to come!"
+Sentiment: positive
+
+Feedback: The sesame miso bowl hit every note. Umami heaven.
+Reply: "Wow, thank you so much for sharing your amazing experience with our sesame miso bowl! We're thrilled to hear that it hit all the right notes for you and transported you to umami heaven. It's always music to our ears when our customers enjoy our dishes as much as we do. We're grateful for your feedback and can't wait to serve you again soon!"
+Sentiment: positive
+
+Feedback: Loved the cold noodle salad. So refreshing and different from the usual.
+Reply: "Thank you so much for sharing your wonderful experience with our cold noodle salad! We're thrilled to hear that you found it refreshing and enjoyed the unique twist on traditional noodles. We're proud to offer a menu that caters to diverse tastes, and it's fantastic to know that our dish hit the spot for you. If you have any other favorite dishes or suggestions, please don't hesitate to let us know - we're always looking for ways to improve and innovate. Thank you again for your support, and we can't wait to serve you again soon!"
+Sentiment: positive
+
+Feedback: Best ramen I’ve had from a delivery service. Flavor, temperature, packaging — all on point.
+Reply: "Wow, thank you so much for taking the time to share your amazing feedback with us! We're absolutely thrilled to hear that our ramen exceeded your expectations in every way, from flavor to temperature to packaging. It's comments like yours that make all our hard work worth it, and we're grateful for customers like you who appreciate the attention to detail we strive to deliver with every order. We can't wait to serve you again and continue to impress!"
+Sentiment: positive
+
